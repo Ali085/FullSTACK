@@ -1,0 +1,52 @@
+.events{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .eventsHead{
+        text-align: center;
+        width: 100%;
+        h2{
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+    }
+    .allEvents{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        width: 60%;
+        margin-top: 80px;
+        .eventCard{
+            display: flex;
+            .date{
+                width: 150px;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #FFB606;
+                border: 3px solid #FFB606;
+                h2{
+                    font-size: 48px;
+                }
+
+            }
+            .eventTXT{
+                width: 50%;
+                margin: 0px 40px 0px 60px;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+            img{
+                width: 300px;
+            }
+        }
+    }
+
+}

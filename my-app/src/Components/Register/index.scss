@@ -1,0 +1,86 @@
+.register {
+    height: 70vh;
+    display: flex;
+    width: 100%;
+
+    .registerDiv {
+        width: 50%;
+        height: 70vh;
+        background-color: #ffb606;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 60%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            h2 {
+                font-size: 35px;
+                color: white;
+                font-weight: 600;
+            }
+
+            p {
+                color: white;
+            }
+
+            button {
+                width: 190px;
+                height: 50px;
+                background-color: #1a1a1a;
+                color: white;
+                font-weight: 900;
+                transition: .2s;
+
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+            }
+        }
+    }
+
+    .SearchCourse {
+        width: 50%;
+        height: 70vh;
+        background-image: url(https://preview.colorlib.com/theme/course/images/search_background.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .searchRight{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            height: 300px;
+            h2{
+                font-size: 36px;
+                font-weight: 500;
+            }
+            input{
+                width: 55%;
+                height: 40px;
+                padding-left: 15px;
+                border: none;
+            }
+            button{
+                width: 55%;
+                height: 50px;
+                background-color: #ffb606;
+                color: white;
+                border: none;
+                font-weight: 800;
+                transition: .2s;
+                &:hover {
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+            }
+        }
+    }
+}
